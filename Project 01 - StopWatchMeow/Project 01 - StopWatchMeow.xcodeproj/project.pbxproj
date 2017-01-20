@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FA42791E31BBBE000A8DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA42781E31BBBE000A8DD0 /* AppDelegate.swift */; };
+		04FA427B1E31BBBE000A8DD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA427A1E31BBBE000A8DD0 /* ViewController.swift */; };
+		04FA427E1E31BBBE000A8DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA427C1E31BBBE000A8DD0 /* Main.storyboard */; };
+		04FA42811E31BBBE000A8DD0 /* Project_01___StopWatchMeow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FA427F1E31BBBE000A8DD0 /* Project_01___StopWatchMeow.xcdatamodeld */; };
+		04FA42831E31BBBE000A8DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FA42821E31BBBE000A8DD0 /* Assets.xcassets */; };
+		04FA42861E31BBBE000A8DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FA42841E31BBBE000A8DD0 /* LaunchScreen.storyboard */; };
+		04FA42911E31BBBE000A8DD0 /* Project_01___StopWatchMeowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA42901E31BBBE000A8DD0 /* Project_01___StopWatchMeowTests.swift */; };
+		04FA429C1E31BBBE000A8DD0 /* Project_01___StopWatchMeowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FA429B1E31BBBE000A8DD0 /* Project_01___StopWatchMeowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FA428D1E31BBBE000A8DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FA426D1E31BBBE000A8DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FA42741E31BBBE000A8DD0;
+			remoteInfo = "Project 01 - StopWatchMeow";
+		};
+		04FA42981E31BBBE000A8DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FA426D1E31BBBE000A8DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FA42741E31BBBE000A8DD0;
+			remoteInfo = "Project 01 - StopWatchMeow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FA42751E31BBBE000A8DD0 /* Project 01 - StopWatchMeow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 01 - StopWatchMeow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FA42781E31BBBE000A8DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04FA427A1E31BBBE000A8DD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04FA427D1E31BBBE000A8DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FA42801E31BBBE000A8DD0 /* Project_01___StopWatchMeow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Project_01___StopWatchMeow.xcdatamodel"; sourceTree = "<group>"; };
+		04FA42821E31BBBE000A8DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FA42851E31BBBE000A8DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FA42871E31BBBE000A8DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FA428C1E31BBBE000A8DD0 /* Project 01 - StopWatchMeowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 01 - StopWatchMeowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FA42901E31BBBE000A8DD0 /* Project_01___StopWatchMeowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_01___StopWatchMeowTests.swift"; sourceTree = "<group>"; };
+		04FA42921E31BBBE000A8DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FA42971E31BBBE000A8DD0 /* Project 01 - StopWatchMeowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 01 - StopWatchMeowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FA429B1E31BBBE000A8DD0 /* Project_01___StopWatchMeowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_01___StopWatchMeowUITests.swift"; sourceTree = "<group>"; };
+		04FA429D1E31BBBE000A8DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FA42721E31BBBE000A8DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FA42891E31BBBE000A8DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FA42941E31BBBE000A8DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FA426C1E31BBBE000A8DD0 = {
+			isa = PBXGroup;
+			children = (
+				04FA42771E31BBBE000A8DD0 /* Project 01 - StopWatchMeow */,
+				04FA428F1E31BBBE000A8DD0 /* Project 01 - StopWatchMeowTests */,
+				04FA429A1E31BBBE000A8DD0 /* Project 01 - StopWatchMeowUITests */,
+				04FA42761E31BBBE000A8DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FA42761E31BBBE000A8DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FA42751E31BBBE000A8DD0 /* Project 01 - StopWatchMeow.app */,
+				04FA428C1E31BBBE000A8DD0 /* Project 01 - StopWatchMeowTests.xctest */,
+				04FA42971E31BBBE000A8DD0 /* Project 01 - StopWatchMeowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FA42771E31BBBE000A8DD0 /* Project 01 - StopWatchMeow */ = {
+			isa = PBXGroup;
+			children = (
+				04FA42781E31BBBE000A8DD0 /* AppDelegate.swift */,
+				04FA427A1E31BBBE000A8DD0 /* ViewController.swift */,
+				04FA427C1E31BBBE000A8DD0 /* Main.storyboard */,
+				04FA42821E31BBBE000A8DD0 /* Assets.xcassets */,
+				04FA42841E31BBBE000A8DD0 /* LaunchScreen.storyboard */,
+				04FA42871E31BBBE000A8DD0 /* Info.plist */,
+				04FA427F1E31BBBE000A8DD0 /* Project_01___StopWatchMeow.xcdatamodeld */,
+			);
+			path = "Project 01 - StopWatchMeow";
+			sourceTree = "<group>";
+		};
+		04FA428F1E31BBBE000A8DD0 /* Project 01 - StopWatchMeowTests */ = {
+			isa = PBXGroup;
+			children = (
+				04FA42901E31BBBE000A8DD0 /* Project_01___StopWatchMeowTests.swift */,
+				04FA42921E31BBBE000A8DD0 /* Info.plist */,
+			);
+			path = "Project 01 - StopWatchMeowTests";
+			sourceTree = "<group>";
+		};
+		04FA429A1E31BBBE000A8DD0 /* Project 01 - StopWatchMeowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04FA429B1E31BBBE000A8DD0 /* Project_01___StopWatchMeowUITests.swift */,
+				04FA429D1E31BBBE000A8DD0 /* Info.plist */,
+			);
+			path = "Project 01 - StopWatchMeowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FA42741E31BBBE000A8DD0 /* Project 01 - StopWatchMeow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FA42A01E31BBBE000A8DD0 /* Build configuration list for PBXNativeTarget "Project 01 - StopWatchMeow" */;
+			buildPhases = (
+				04FA42711E31BBBE000A8DD0 /* Sources */,
+				04FA42721E31BBBE000A8DD0 /* Frameworks */,
+				04FA42731E31BBBE000A8DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 01 - StopWatchMeow";
+			productName = "Project 01 - StopWatchMeow";
+			productReference = 04FA42751E31BBBE000A8DD0 /* Project 01 - StopWatchMeow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FA428B1E31BBBE000A8DD0 /* Project 01 - StopWatchMeowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FA42A31E31BBBE000A8DD0 /* Build configuration list for PBXNativeTarget "Project 01 - StopWatchMeowTests" */;
+			buildPhases = (
+				04FA42881E31BBBE000A8DD0 /* Sources */,
+				04FA42891E31BBBE000A8DD0 /* Frameworks */,
+				04FA428A1E31BBBE000A8DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FA428E1E31BBBE000A8DD0 /* PBXTargetDependency */,
+			);
+			name = "Project 01 - StopWatchMeowTests";
+			productName = "Project 01 - StopWatchMeowTests";
+			productReference = 04FA428C1E31BBBE000A8DD0 /* Project 01 - StopWatchMeowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04FA42961E31BBBE000A8DD0 /* Project 01 - StopWatchMeowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FA42A61E31BBBE000A8DD0 /* Build configuration list for PBXNativeTarget "Project 01 - StopWatchMeowUITests" */;
+			buildPhases = (
+				04FA42931E31BBBE000A8DD0 /* Sources */,
+				04FA42941E31BBBE000A8DD0 /* Frameworks */,
+				04FA42951E31BBBE000A8DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FA42991E31BBBE000A8DD0 /* PBXTargetDependency */,
+			);
+			name = "Project 01 - StopWatchMeowUITests";
+			productName = "Project 01 - StopWatchMeowUITests";
+			productReference = 04FA42971E31BBBE000A8DD0 /* Project 01 - StopWatchMeowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FA426D1E31BBBE000A8DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Meow.minithon.teama;
+				TargetAttributes = {
+					04FA42741E31BBBE000A8DD0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					04FA428B1E31BBBE000A8DD0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M67FSQMGRG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04FA42741E31BBBE000A8DD0;
+					};
+					04FA42961E31BBBE000A8DD0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M67FSQMGRG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04FA42741E31BBBE000A8DD0;
+					};
+				};
+			};
+			buildConfigurationList = 04FA42701E31BBBE000A8DD0 /* Build configuration list for PBXProject "Project 01 - StopWatchMeow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FA426C1E31BBBE000A8DD0;
+			productRefGroup = 04FA42761E31BBBE000A8DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FA42741E31BBBE000A8DD0 /* Project 01 - StopWatchMeow */,
+				04FA428B1E31BBBE000A8DD0 /* Project 01 - StopWatchMeowTests */,
+				04FA42961E31BBBE000A8DD0 /* Project 01 - StopWatchMeowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FA42731E31BBBE000A8DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FA42861E31BBBE000A8DD0 /* LaunchScreen.storyboard in Resources */,
+				04FA42831E31BBBE000A8DD0 /* Assets.xcassets in Resources */,
+				04FA427E1E31BBBE000A8DD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FA428A1E31BBBE000A8DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FA42951E31BBBE000A8DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FA42711E31BBBE000A8DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FA42811E31BBBE000A8DD0 /* Project_01___StopWatchMeow.xcdatamodeld in Sources */,
+				04FA427B1E31BBBE000A8DD0 /* ViewController.swift in Sources */,
+				04FA42791E31BBBE000A8DD0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FA42881E31BBBE000A8DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FA42911E31BBBE000A8DD0 /* Project_01___StopWatchMeowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FA42931E31BBBE000A8DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FA429C1E31BBBE000A8DD0 /* Project_01___StopWatchMeowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FA428E1E31BBBE000A8DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FA42741E31BBBE000A8DD0 /* Project 01 - StopWatchMeow */;
+			targetProxy = 04FA428D1E31BBBE000A8DD0 /* PBXContainerItemProxy */;
+		};
+		04FA42991E31BBBE000A8DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FA42741E31BBBE000A8DD0 /* Project 01 - StopWatchMeow */;
+			targetProxy = 04FA42981E31BBBE000A8DD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FA427C1E31BBBE000A8DD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FA427D1E31BBBE000A8DD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FA42841E31BBBE000A8DD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FA42851E31BBBE000A8DD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FA429E1E31BBBE000A8DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04FA429F1E31BBBE000A8DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FA42A11E31BBBE000A8DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Project 01 - StopWatchMeow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meow.minithon.teama.Project-01---StopWatchMeow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04FA42A21E31BBBE000A8DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Project 01 - StopWatchMeow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meow.minithon.teama.Project-01---StopWatchMeow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04FA42A41E31BBBE000A8DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M67FSQMGRG;
+				INFOPLIST_FILE = "Project 01 - StopWatchMeowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meow.minithon.teama.Project-01---StopWatchMeowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 01 - StopWatchMeow.app/Project 01 - StopWatchMeow";
+			};
+			name = Debug;
+		};
+		04FA42A51E31BBBE000A8DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M67FSQMGRG;
+				INFOPLIST_FILE = "Project 01 - StopWatchMeowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meow.minithon.teama.Project-01---StopWatchMeowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 01 - StopWatchMeow.app/Project 01 - StopWatchMeow";
+			};
+			name = Release;
+		};
+		04FA42A71E31BBBE000A8DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M67FSQMGRG;
+				INFOPLIST_FILE = "Project 01 - StopWatchMeowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meow.minithon.teama.Project-01---StopWatchMeowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Project 01 - StopWatchMeow";
+			};
+			name = Debug;
+		};
+		04FA42A81E31BBBE000A8DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M67FSQMGRG;
+				INFOPLIST_FILE = "Project 01 - StopWatchMeowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Meow.minithon.teama.Project-01---StopWatchMeowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Project 01 - StopWatchMeow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FA42701E31BBBE000A8DD0 /* Build configuration list for PBXProject "Project 01 - StopWatchMeow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FA429E1E31BBBE000A8DD0 /* Debug */,
+				04FA429F1E31BBBE000A8DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FA42A01E31BBBE000A8DD0 /* Build configuration list for PBXNativeTarget "Project 01 - StopWatchMeow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FA42A11E31BBBE000A8DD0 /* Debug */,
+				04FA42A21E31BBBE000A8DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FA42A31E31BBBE000A8DD0 /* Build configuration list for PBXNativeTarget "Project 01 - StopWatchMeowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FA42A41E31BBBE000A8DD0 /* Debug */,
+				04FA42A51E31BBBE000A8DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FA42A61E31BBBE000A8DD0 /* Build configuration list for PBXNativeTarget "Project 01 - StopWatchMeowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FA42A71E31BBBE000A8DD0 /* Debug */,
+				04FA42A81E31BBBE000A8DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04FA427F1E31BBBE000A8DD0 /* Project_01___StopWatchMeow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04FA42801E31BBBE000A8DD0 /* Project_01___StopWatchMeow.xcdatamodel */,
+			);
+			currentVersion = 04FA42801E31BBBE000A8DD0 /* Project_01___StopWatchMeow.xcdatamodel */;
+			path = "Project_01___StopWatchMeow.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04FA426D1E31BBBE000A8DD0 /* Project object */;
+}
